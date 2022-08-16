@@ -1,14 +1,11 @@
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 li {
     list-style: none;
-    padding: 0px 16px 0px 0px;
+    padding: 0px 32px 0px 0px;
 }
 
 a {
+    color: #f9faf8;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -18,18 +15,118 @@ ul {
 
 .logo-image {
     width: auto;
-    height: 50px;
+    height: 35px;
+    border-radius: 50%;
 }
 
 .header {
+    padding: 30px 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .presentation {
+    padding: 48px 0px 48px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1f2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    gap: 36px
+}
+
+.presentation-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.presentation-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.presentation-card {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    width: 75px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+}
+
+.presentation-image {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.random {
+    padding: 48px 0px 48px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.random-title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.random-image {
+    display: flex;
+    justify-content: center;
+}
+
+.first-image {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.second-image {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.third-image {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.forth-image {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.images {
+    border: #3882f6 solid 2px;
+    border-radius: 10px;
+    ;
 }
