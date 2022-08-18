@@ -58,8 +58,10 @@ ul {
 
 .sign-up {
     width: 75px;
+    height: 24px;
     background-color: #3882f6;
     color: white;
+    border: none;
     border-radius: 6px;
 }
 
