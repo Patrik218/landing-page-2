@@ -151,3 +151,38 @@ ul {
 .credit {
     font-weight: bold;
 }
+
+.call {
+    width: 800px;
+    border-radius: 24px;
+    margin: 36px auto 36px auto;
+    background-color: #3882f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 32px;
+}
+
+.call-card {
+    padding: 0px 0px 0px 56px;
+}
+
+.call-s {
+    width: 75px;
+    height: 24px;
+    background-color: #3882f6;
+    color: white;
+    border: white solid 2px;
+    border-radius: 6px;
+    margin: 42px auto 42px auto;
+}
+
+.footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 16px 0 16px 0;
+}
