@@ -13,19 +13,31 @@ ul {
     display: flex;
 }
 
+.header {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo-container {
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .logo-image {
     width: auto;
     height: 35px;
     border-radius: 50%;
 }
 
-.header {
-    padding: 30px 30px;
+.header-links {
+    width: 650px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #1f2937;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: flex-end;
 }
 
 .presentation {
@@ -151,7 +163,12 @@ ul {
 }
 
 .credit {
+    width: 800px;
     font-weight: bold;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .call {
